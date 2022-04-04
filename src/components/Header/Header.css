@@ -1,6 +1,7 @@
 .brand-name {
   color: #333C83;
   text-transform: capitalize;
+  padding: 10px 0;
 }
 
 .brand-name span {
