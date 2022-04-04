@@ -1,0 +1,22 @@
+.reviews-container {
+  width: 85%;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+.reviews-container h3 {
+  color: #FDAF75;
+  font-size: 40px;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+
+.reviews-container h3 span {
+  color: #F24A72;
+}
+
+.reviews {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
