@@ -8,12 +8,12 @@ const Reviews = () => {
 	return (
 		<div className="reviews-container">
 			<h3>
-				customer <span>reviews</span>
+				All customer <span>reviews</span>
 			</h3>
 			<div className="reviews">
-				{reviews.map((review) => (
+				{reviews.map(review => 
 					<ReviewCard key={review.id} review={review}></ReviewCard>
-				))}
+				)}
 			</div>
 		</div>
 	);
