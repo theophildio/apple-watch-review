@@ -12,6 +12,7 @@ const Home = () => {
         <p>Just put on your Apple Watch and take off. Series 7 keeps all the things you care about front and center with its larger screen. The larger display enhances the entire experience, making Apple Watch easier to use and read. Series 7 represents our biggest and brightest thinking.</p>
         <button className='hero-btn'>buy now</button>
       </div>
+
     </div>
   );
 };
