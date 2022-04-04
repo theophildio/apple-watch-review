@@ -1,0 +1,25 @@
+.blog-container {
+  width: 85%;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.blog-container h2 {
+  color: #333C83;
+  font-size: 45px;
+  text-transform: capitalize;
+}
+
+.blog-container span {
+  color: #F24A72;
+}
+
+.blog-container article {
+  text-align: left;
+  margin: 40px 0;
+}
+
+.blog-container h3 {
+  color: #333C83;
+  font-weight: 500;
+}
