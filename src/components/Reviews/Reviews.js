@@ -1,6 +1,6 @@
 import React from "react";
 import useReviews from "../../hooks/useReviews";
-import ReviewCard from "../Review/ReviewCard";
+import ReviewCard from "../ReviewCard/ReviewCard";
 import "./Reviews.css";
 
 const Reviews = () => {
@@ -8,7 +8,7 @@ const Reviews = () => {
 	return (
 		<div className="reviews-container">
 			<h3>
-				All customer <span>reviews</span>
+				All customers <span>reviews</span>
 			</h3>
 			<div className="reviews">
 				{reviews.map(review => 
@@ -20,4 +20,3 @@ const Reviews = () => {
 };
 
 export default Reviews;
-<h2>this is review</h2>;

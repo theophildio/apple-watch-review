@@ -41,6 +41,7 @@
   cursor: pointer;
   box-shadow: rgb(253, 175, 117) 0px 30px 60px -12px, rgb(234, 234, 127) 0px 18px 36px -18px;
   transition: 0.5s;
+  text-decoration: none;
 }
 
 .home-container .btn:hover {
@@ -62,8 +63,4 @@
 
 .home-container .customer-reviews span {
   color: #F24A72;
-}
-
-.reviews {
-  margin-bottom: 30px;
 }

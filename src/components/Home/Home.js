@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import useReviews from "../../hooks/useReviews";
 import ReviewOnHome from "../ReviewOnHome/ReviewOnHome";
 import "./Home.css";
@@ -28,14 +29,14 @@ const Home = () => {
 			<main>
 				<section className="customer-reviews">
 					<h3>
-						customer <span>reviews</span>
+						what our <span>customers say ({reviewOnHome.length})</span>
 					</h3>
 					<div className="reviews">
 						{reviewOnHome.map(review => 
 							<ReviewOnHome key={review.id} review={review}></ReviewOnHome>
 						)}
 					</div>
-          <button className="btn">See all reviews</button>
+          <Link to="/reviews" className="btn">See all reviews</Link>
 				</section>
 			</main>
 		</div>
