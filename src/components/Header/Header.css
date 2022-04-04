@@ -1,0 +1,28 @@
+.brand-name {
+  color: #333C83;
+  text-transform: capitalize;
+}
+
+.brand-name span {
+  color: #F24A72;
+}
+
+.nav {
+  background-color: #333c83;
+  padding: 20px 0;
+}
+
+.nav a {
+  margin: 5px;
+  padding: 0 40px;
+  text-decoration: none;
+  color: #FDAF75;
+  font-size: 22px;
+  text-transform: capitalize;
+  transition: 0.5s;
+  border-bottom: 2px solid transparent;
+}
+
+.nav a:hover {
+  color: #F24A72;
+}
