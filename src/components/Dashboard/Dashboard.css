@@ -1,0 +1,14 @@
+.charts-container {
+  width: 85%;
+  margin: 0 auto;
+  padding: 40px 0;
+  overflow: hidden;
+}
+
+.charts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  justify-content: space-evenly;
+  align-items: center;
+}
