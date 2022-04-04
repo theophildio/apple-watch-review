@@ -9,6 +9,9 @@
 }
 
 .nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   background-color: #333c83;
   padding: 20px 0;
 }
@@ -16,8 +19,6 @@
 .nav a {
   margin: 5px;
   padding: 0 40px;
-  text-decoration: none;
-  color: #FDAF75;
   font-size: 22px;
   text-transform: capitalize;
   transition: 0.5s;
