@@ -1,3 +1,9 @@
+.header-container {
+  position: sticky;
+  top: 0;
+  background-color: #f5f5f5;
+}
+
 .brand-name {
   color: #333C83;
   text-transform: capitalize;
@@ -6,4 +12,12 @@
 
 .brand-name span {
   color: #F24A72;
+}
+
+/* responsive */
+
+@media screen and (max-width: 480px) {
+  .header-container {
+    position: static;
+  }
 }
