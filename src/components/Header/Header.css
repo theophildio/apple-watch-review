@@ -7,28 +7,3 @@
 .brand-name span {
   color: #F24A72;
 }
-
-.nav {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  background-color: #333c83;
-  padding: 20px 0;
-}
-
-.nav a {
-  margin: 5px;
-  padding: 0 40px;
-  font-size: 22px;
-  text-transform: capitalize;
-  transition: 0.5s;
-  border-bottom: 2px solid transparent;
-}
-
-/* responsive */
-
-@media screen and (max-width: 480px) {
-  .nav {
-    flex-direction: column;
-  }
-}
