@@ -1,0 +1,21 @@
+.not-found img {
+  width: 45%;
+}
+
+.not-found h3 {
+  color: #333C83;
+  font-size: 40px;
+  margin: 40px 0;
+}
+
+.not-found span {
+  color: #F24A72;
+}
+
+/* responsive */
+
+@media screen and (max-width: 480px) {
+  .not-found {
+    height: 80vh;
+  }
+}
