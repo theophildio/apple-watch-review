@@ -29,7 +29,7 @@ const Home = () => {
 			<main>
 				<section className="customer-reviews">
 					<h3>
-						what our <span>customers say ({reviewOnHome.length})</span>
+						what our <span>customers say</span>
 					</h3>
 					<div className="reviews">
 						{reviewOnHome.map(review => 

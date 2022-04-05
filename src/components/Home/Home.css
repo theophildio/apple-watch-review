@@ -64,3 +64,27 @@
 .home-container .customer-reviews span {
   color: #F24A72;
 }
+
+/* responsive */
+
+@media screen and (max-width: 480px) {
+  .hero {
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+  .home-container .hero-content {
+    text-align: center;
+    padding-right: 0;
+  }
+  .home-container .hero-content h2 {
+    font-size: 50px;
+    line-height: 55px;
+  }
+  .home-container .customer-reviews {
+    padding: 25px 0;
+  }
+  .home-container .customer-reviews h3 {
+    font-size: 32px;
+    margin: 20px 0;
+  }
+}
